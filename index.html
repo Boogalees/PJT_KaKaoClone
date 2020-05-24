@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css" />
     <title>Chats :: kakaoclone </title>
 </head>
 
@@ -21,44 +22,55 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-full"></i>
+
             <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
         </div>
     </div>
-    <header calss="header">
+    <header class="header">
         <div class="header__header-column">
             <h1 class="header_title">Chats</h1>
         </div>
         <div class="header__header-column">
             <span class="header__icon">
-                <i class="fas fa-search"></i>
+                <i class="fas fa-search"> </i>
             </span>
             <span class="header__icon">
                 <i class="fas fa-comment"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="settings.html" class="nav__list-link"> <i class="fas fa-cog"></i></a>
+
             </span>
         </div>
     </header>
     <main class="chats">
         <ul class="chats__list">
             <a href="chat.html">
-                <li class="chats__chat">
-                    <div class="chat__column">
-                        <img class="chat__avatar g-avatar" src="images\boram.jpg" \>
+                <li class="chats__chat friend friend--lg">
+                    <div class="friend__column">
 
-                        <div class="chat__content">
-                            <span class="chat__username">Boram</span>
-                            <span class="chat__preview">I'm on my way!</span>
+                        <img src="images\boram.jpg" alt="" class="m-avatar friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                Borami
+                            </span>
+                            <span class="friend__bottom-text">
+                                go home ee
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="friend__column">
+                        <div class="friend__now-listening">
+                            <span class="chat__timestamp">
+                                May 24
+                            </span>
+
                         </div>
                     </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">
-                            Yesterday
-                        </span>
-                    </div>
                 </li>
+
             </a>
         </ul>
     </main>
@@ -69,6 +81,7 @@
                 </a>
             </li>
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a></li>
             <li class="nav__list-item"><a href="find.html" class="nav__list-link">

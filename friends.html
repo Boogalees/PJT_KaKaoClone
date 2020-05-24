@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css" />
     <title>Friends :: kakaoclone </title>
 </head>
 
@@ -25,7 +25,7 @@
             <span class="status-bar__battery-level">100%</span>
         </div>
     </div>
-    <header calss="header">
+    <header class="header">
         <div class="header__header-column">
             <h1 class="header_title">Friends</h1>
         </div>
@@ -43,16 +43,17 @@
         <div class="friend__column">
             <header class="friends_header">
                 <div class="friends__friend friend friend--lg">
-                    <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
-                    <div class="friend__content">
-                        <span class="friend_name">
-                            WON HEE LEE
-                        </span>
-                        <span class="friend_status">
-                            skyinyour@naver.com
-                        </span>
+                    <div class="friend__column">
+                        <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                WON HEE LEE
+                            </span>
+                            <span class="friend__status">
+                                skyinyour@naver.com
+                            </span>
+                        </div>
                     </div>
-
                 </div>
         </div>
         </header>
@@ -60,40 +61,45 @@
             <div class="friend__column">
                 <h5 class="friends__title">Plus friend</h5>
                 <div class="friends__friend friend friend">
-                    <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
+                    <div class="friend__column">
+                        <img src="images\boram.jpg" alt="" class="friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                PLUS FRIEND
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="friends__list">
+            <h5 class="friends__title">Friends 224</h5>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+
+                    <img src="images\boram.jpg" alt="" class="friend__avatar">
                     <div class="friend__content">
-                        <span class="friend_name">
-                            PLUS FRIEND
+                        <span class="friend__name">
+                            WON HEE LEE
+                        </span>
+                        <span class="friend__status">
+                            skyinyour@naver.com
+                        </span>
+                    </div>
+
+
+
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span> SEX ON THE BEACH(FS)
+                            <i class="fas fa-play"></i>
                         </span>
 
                     </div>
                 </div>
-            </div>
-
-            <ul class="friends_list">
-                <h5 class="friends__title">Friends 224</h5>
-                <li class="friends__friend friend friend--lg">
-                    <div class="friend__column">
-                        <div>
-                            <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
-                            <div class="friend__content">
-                                <span class="friend_name">
-                                    WON HEE LEE
-                                </span>
-                                <span class="friend_status">
-                                    skyinyour@naver.com
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="friend__column">
-                        <div class="friend__now-listening">
-                            <span> SEX ON THE BEACH(FS)</span>
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+            </li>
+        </ul>
     </main>
     <nav class="nav">
         <ul class="nav__list">

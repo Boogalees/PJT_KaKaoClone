@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css" />
     <title>More :: kakaoclone </title>
 </head>
 
@@ -25,7 +25,7 @@
             <span class="status-bar__battery-level">100%</span>
         </div>
     </div>
-    <header calss="header">
+    <header class="header">
         <div class="header__header-column">
             <h1 class="header_title">More</h1>
         </div>
@@ -47,20 +47,20 @@
         <header class="more__header">
             <div class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <div>
-                        <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
-                        <div class="friend__content">
-                            <span class="friend_name">
-                                WON HEE LEE
-                            </span>
-                            <span class="friend_status">
-                                skyinyour@naver.com
-                            </span>
-                        </div>
+
+                    <img src="images\boram.jpg" alt="" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            WON HEE LEE
+                        </span>
+                        <span class="friend__status">
+                            skyinyour@naver.com
+                        </span>
                     </div>
+
                 </div>
                 <div class="friend__column">
-                    <div class="friend__now-listening">
+                    <div class="friend__now-listenings">
                         <i class="far fa-comment-alt fa-2x"></i>
                     </div>
                 </div>
@@ -96,20 +96,27 @@
                     Suggestions
                 </h5>
                 <ul class="more__suggestions-list">
-                    <li class="more__suggestions-list">
-                        <i class="fas fa-quote-right fa-2x"></i>
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </span>
+
                         <span class="suggestion__title">
                             KaKao Story
                         </span>
                     </li>
-                    <li class="more__suggestions-list">
-                        <i class="fas fa-beer fa-2x"></i>
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-beer fa-2x"></i>
+                        </span>
                         <span class="suggestion__title">
                             KaKao Friends
                         </span>
                     </li>
-                    <li class="more__suggestions-list">
-                        <i class="fas fa-gamepad fa-2x"></i>
+                    <li class="more__suggestion suggestion">
+                        <span class="suggestion__icon">
+                            <i class="fas fa-gamepad fa-2x"></i>
+                        </span>
                         <span class="suggestion__title">
                             Friends Game
                         </span>
