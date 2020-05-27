@@ -8,15 +8,34 @@
 .header_title {
   font-size: 24px;
   font-weight: 600;
+  font-family: 'Lobster', cursive;
 }
 .header .header__icon {
-  font-size: 20px;
+  font-size: 20px;  
   margin-left: 20px;
   cursor: pointer;
+  position: relative;
+  transition: color 0.5s ease-in;
 }
+/* .header__icon .icon__plus__badge{
+  font-size: 14px;
+  color:rgb(245, 73, 73);
+  position: absolute;
+  top:2px;
+  left:5px;
+  display: none;
+} */
+.header .header__icon:hover {
+  color:rgb(180, 180, 50);
+
+}
+
+
+
 .header .header__header-column {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header .header__back-btn {
   font-size: 22px;

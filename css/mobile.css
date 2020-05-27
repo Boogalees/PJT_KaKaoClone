@@ -12,10 +12,12 @@
     display: none;
     z-index:4;
 }
+.bigScreen__text{
+    font-family: 'Lobster', cursive;
+}
 
-
-@media screen and (min-width:550px){
+@media screen and (min-width:650px){
     .bigScreen{
-        /* display: flex; */
+         display: flex; 
     }
 }

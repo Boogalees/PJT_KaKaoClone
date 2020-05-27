@@ -12,9 +12,10 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-
 }
-
+.find .header-btn:hover{
+    cursor: pointer;
+}
 .find .header-btn__title{
     margin-top: 20px;
     display: block;
@@ -28,6 +29,7 @@
 .find .header-btn__icon{
     font-size: 12px;
 }
+
 
 .find .find__recommneded{
     margin-top: 30px;
